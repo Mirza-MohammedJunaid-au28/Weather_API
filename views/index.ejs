@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <main id="main-section">
+        <img src="images/summer.gif" alt="weather-img" id="weather-img">
+        <form id="city-form">
+            <label for="city_names">Enter City/Cities Names :</label> <br>
+            <input type="text" id="city_names">
+            <button id="submit-btn" onclick="submitForm(event)">Submit</button> <br>
+            <span id="note">* for multiple cities, put ',' between their names.</span>
+        </form>
+        <div id="output"></div>
+    </main>
+</body>
+<script src="js/script.js"></script>
+</html>

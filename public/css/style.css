@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-section{
+    height: 100vh;
+    width: 100vw;
+    background-color:#49bffe;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#weather-img{
+    height: 400px;
+    width: 550px;
+}
+
+#city-form{
+    position: relative;
+    bottom: 50px;
+}
+
+#city-form > input{
+    height: 35px;
+    width: 300px;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 3px;
+}
+
+#note{
+    color: rgb(17, 0, 255);
+    font-size: .9rem;
+}
+
+#submit-btn{
+    height: 35px;
+    padding: 7px 15px;
+    margin-left: 10px;
+    border-radius:6px;
+    border: none;
+    color: black;
+    background-color:yellow;
+    cursor: pointer;
+}
+
+#output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#output > div{
+    text-align: center;
+}
+
+#output > div > h4{
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+#output > div > div{
+    color:white;
+}
